@@ -1,6 +1,6 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
-import image from "../image/devraj.jpg";
+import image from "/home/dev/ats-frontend/Homestay/frontend/src/image/devraj.jpg"
 
 
 export default function Contact() {
@@ -57,7 +57,7 @@ Message: ${form.message}`;
             <img
               src={image}
               alt="Owner"
-              className="rounded-full mx-auto md:mx-0 w-40 h-40 object-cover"
+              className="rounded-full mx-auto md:mx-0 w-40 h-45 object-cover"
             />
           </div>
 
