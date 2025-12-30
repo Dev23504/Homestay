@@ -1,5 +1,5 @@
 import homestays from "../data/homestays.js";
-import HotelCard from "../components/HotelCard.jsx"; 
+import HotelCard from "./HotelCard.jsx"; 
 
 
 const Rooms = () => {

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
-import image from "/home/dev/ats-frontend/frontend/src/image/Devraj .jpg";
+import image from "../image/devraj.jpg";
+
 
 export default function Contact() {
   const [form, setForm] = useState({
