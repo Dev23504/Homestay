@@ -1,7 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import image from "../image/devraj.jpg";
-import Rb from "../image/Videos/Rbook.mp4";
+
 
 
 export default function Contact() {
