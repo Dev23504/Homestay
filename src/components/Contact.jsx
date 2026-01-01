@@ -1,7 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import image from "../image/devraj.jpg";
-
+import Rb from "../image/Videos/Rbook.mp4";
 
 
 export default function Contact() {
@@ -53,7 +53,9 @@ Message: ${form.message}`;
     <div className="container mx-auto p-4 mt-20">
       {/* HEADER */}
       <div className="bg-purple-200 shadow rounded p-4 mb-8">
+
         <div className="row items-center text-center md:text-left">
+          
           <div className="col-md-3 mb-3">
             <img
               src={image}
